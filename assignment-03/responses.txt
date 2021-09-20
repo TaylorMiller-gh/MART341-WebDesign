@@ -1,0 +1,25 @@
+**1.** While I can't say I necessarily gain "joy" from these sites, three places I
+frequent are [Twitch](https://www.twitch.tv/dashducks), [Youtube](https://youtu.be/IjMESxJdWkg),
+and [Steam](https://store.steampowered.com).
+
+**2.** The DNS, or *Domain Name System*, is essentially the phonebook server of IP
+addresses. Domain names are coordinated to IP addresses, divided and organized
+by a hierarchical system (eg .org, .com, .gov etc)
+
+**3.** A cookie is an identification packet used by servers to track a
+user's access on their site. Cookies are exchanged by the web server and the
+user's web browser.
+
+**4.** Three essential parts of a URL are the Protocol, the Domain,
+and the Path.
+
+**5.**  See README.md
+
+**6.** Things that I have learned, in no particular order,  are as follows:
+- How to use *Atom*
+
+- The curious structure of our global cable infrastructure and its resemblance to colonial conquest routes
+  - A coincidence, to be sure
+
+
+- Markdown application and execution
