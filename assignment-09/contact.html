@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Page for instructable.">
+    <meta name="author" content="Taylor Miller">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us </title>
+    <style>
+      body {
+        background-image: url(images/veryBadWater.png);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: #cccccc;
+        font-family: "Calibri, sans-serif";
+        color: snow;
+      }
+      table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+      }
+      th, td {
+        background-color: gray;
+      }
+      .body{
+        background-image: url(images/grass.png);
+        width: 900px;
+        margin: auto;
+        padding: 10px;
+        border: 1px solid white;
+        text-color: white;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .centerTable {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h2 {
+        text-align: center;
+        font-size: 24px;
+        text-shadow: 2px 2px 6px black;
+        padding: 10px;
+      }
+      h3 {
+        text-align: center;
+        font-size: 22px;
+        text-shadow: 2px 2px 6px black;
+        padding: 10px;
+      }
+      p {
+        font-size: 18px;
+        text-shadow: 2px 2px 6px black;
+      }
+      ul {
+        background-image: url(images/grassEdge.png);
+        text-align: center;
+        padding: 10px;
+      }
+      li {
+        display: inline;
+        padding: 10px;
+      }
+      a:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav id="main">
+    <ul>
+      <li><a href="./index.html" style="color:snow;">Main</a></li>
+      <li><a href="./about.html" style="color:snow;">About</a></li>
+      <li><a href="./contact.html" style="color:snow;">Contact</a></li>
+    </ul>
+    </nav>
+    <form method="post" action="index.html" class="body">
+      <fieldset>
+        <legend>Contact Information</legend>
+          <label>Email:
+           <input type="email" name="email" autofocus />
+          </label><br/>
+          <label>Age:
+            <input type="text" name="age" />
+          </label>
+          <br />
+          <p>Would you like to sign up for my pixel art newsletter?<br/>
+            Yes&nbsp;<input type="radio" name="newsletter" id="newsletter" value="Y">
+            No&nbsp;<input type="radio" name="newsletter" id="newsletter" value="N">
+          </p>
+          Comments<br/>
+          <textarea name="comments" id="comments" rows="10" cols="30" placeholder="Click to add a comment."></textarea>
+          <br/>
+          <input type="submit" name="emailSub" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
