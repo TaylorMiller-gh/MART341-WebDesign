@@ -1,0 +1,68 @@
+.class1 {
+  /* Use italicized font. Title. */
+  font-family: 'Amatic SC', cursive, sans-serif;
+  font-style: bold;
+  font-size: 3em;
+  color: red;
+  text-align: center;
+  letter-spacing: .1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 150px;
+  width: 50%;
+  padding-top: 75px;
+
+}
+
+.class2 {
+  /* Normal Font. Body. */
+  font-family: 'Amatic SC', cursive, sans-serif;
+  font-style: normal;
+  font-size: 2em;
+  color: #000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+  width: 50%;
+  padding-top: 175px
+}
+body {
+  background-image: url("../images/brush.jpg");
+  background-repeat: no-repeat, no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.class2 p:first-child::first-letter {
+  font-family: 'Amatic SC', cursive;
+  font-style: normal;
+  font-size: 2em;
+  text-indent: 2em;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  ext-decoration: underline;
+}
