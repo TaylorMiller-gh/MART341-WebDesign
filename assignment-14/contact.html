@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site mock up - Contact Page.">
+    <meta name="author" content="Taylor Miller">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> A14 | Contact </title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  </head>
+  <body>
+
+    <div class="logo">
+      <h1>An Unamed Studio</h1>
+    </div>
+
+    <header class="">
+      <div class="menu">
+        <a href="./index.html">Home</a>
+      </div>
+      <div class="menu">
+        <a href="./about.html">About</a>
+      </div>
+      <div class="menu">
+        <a href="./gallery.html">Gallery</a>
+      </div>
+      <div class="menu">
+        <a href="./contact.html">Contact</a>
+      </div>
+
+      <div class="menu dropdown">
+        <a href="">Socials</a>
+        <div class="dropdown-content">
+          <div class="dropdown-block">
+            <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
+          </div>
+          <div class="dropdown-block">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+          </div>
+          <div class="dropdown-block">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <main>
+
+      <form method="post" action="index.html" class="body">
+        <fieldset>
+          <legend><p>Contact Information</p></legend>
+            <label><p>Email:</p>
+             <input type="email" name="email" autofocus />
+            </label><br/>
+            <label><p>Name:</p>
+             <input type="text" name="phone" autofocus />
+            </label><br/>
+            <br />
+            <p>Would you like to join the newsletter?<br/>
+              Yes&nbsp;<input type="radio" name="newsletter" id="newsletter" value="Y">
+              No&nbsp;<input type="radio" name="newsletter" id="newsletter" value="N">
+            </p>
+            <p>What is the nature of your correspondence?</p>
+            <textarea name="comments" id="comments" rows="30" cols="100" placeholder="Click to type."></textarea>
+            <br/>
+            <input type="submit" name="emailSub" value="Submit" />
+        </fieldset>
+      </form>
+
+    </main>
+
+  </body>
+</html>
